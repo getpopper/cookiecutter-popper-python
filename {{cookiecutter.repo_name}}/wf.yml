@@ -1,6 +1,6 @@
 steps:
  # add your steps here
-{%- if cookiecutter.notebooks == "Yes" -%}
+{%- if cookiecutter.jupyter_notebooks == "Yes" -%}
 - id: "jupyter"
   args: ["jupyter", "--version"]
   options:
