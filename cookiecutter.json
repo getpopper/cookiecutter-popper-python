@@ -1,7 +1,7 @@
 {
     "project name" : "",
-    "repo name" :  "{{ cookiecutter['project name'].lower().replace(' ', '-') }}",
-    "author name" : "",
+    "repo_name" :  "{{ cookiecutter['project name'].lower().replace(' ', '-') }}",
+    "author(s)" : "",
     "description" : "",
     "license": ["MIT", "BSD-3-Clause", "No license file"],
     "jupyter notebooks": ["Yes", "No"],

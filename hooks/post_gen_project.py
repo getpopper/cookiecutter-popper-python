@@ -3,7 +3,6 @@ import shutil
 
 os_license = '{{ cookiecutter.license }}'
 notebooks = '{{ cookiecutter['jupyter notebooks'] }}'
-data_complexity = '{{ cookiecutter['data processing complexity'] }}'
 
 if os_license == "No license file":
     os.remove("LICENSE")
