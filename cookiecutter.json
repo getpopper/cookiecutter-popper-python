@@ -1,0 +1,10 @@
+{
+    "project_name" : "",
+    "repo_name" :  "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "author_name" : "",
+    "description" : "",
+    "license": ["MIT", "BSD-3-Clause", "No license file"],
+    "package_manager": ["conda", "pip"],
+    "notebooks": ["No", "Yes"],
+    "src_structure": ["Less", "More"]
+}
