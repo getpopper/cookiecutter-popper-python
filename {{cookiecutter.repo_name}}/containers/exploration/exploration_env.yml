@@ -5,4 +5,4 @@ channels:
 dependencies:
 {% if cookiecutter['jupyter notebooks'] == "Yes" -%}
   - jupyterlab
-{%- endif -}
+{%- endif -%}
