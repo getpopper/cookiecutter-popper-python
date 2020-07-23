@@ -32,7 +32,7 @@ popper run -f wf.yml
 └── src                             <- Source code for this project.
 {%- if cookiecutter['jupyter notebooks'] == "Yes" %}
     ├── notebooks                   <- Jupyter notebooks.
-{% endif -%}
+{%- endif %}
     ├── data                        <- Scripts to download or generate data.
     ├── models                      <- Scripts used to generate models.
     └── figures                     <- Scripts to generate graphics.
