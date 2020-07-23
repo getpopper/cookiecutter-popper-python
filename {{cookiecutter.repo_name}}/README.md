@@ -21,11 +21,11 @@ popper run -f wf.yml
 {%- endif %}
 ├── README.md                       <- The top-level README.
 ├── data                            <- Data used in workflow.
-├── paper                           <- Generated papaer as PDF, LaTeX.
+├── paper                           <- Generated paper as PDF, LaTeX.
 ├── containers                      <- Definitions of containers used in workflow
 |   └── exploration                 <- Container used for exploratory work. 
 |       ├── exploration.dockerfile  <- Default dockerfile used in workflow.
-|       └── explotation_env.yml     <- Defines conda environment used by container.
+|       └── exploration_env.yml     <- Defines conda environment used by container.
 ├── results
 |   ├── models                      <- Model predictions, serialized models, etc.        
 |   └── figures                     <- Graphics created during workflow.

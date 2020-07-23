@@ -138,3 +138,10 @@ dmypy.json
 *.csv
 *.db
 *.npy
+*.hdf
+*.h5
+*.hdf5
+
+# object serialization
+*.pkl
+*.ckpt

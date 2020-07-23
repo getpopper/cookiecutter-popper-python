@@ -3,6 +3,6 @@ channels:
   - conda-forge
   - base
 dependencies:
-{% if cookiecutter['jupyter notebooks'] == "Yes" -%}
+{% if cookiecutter['jupyter notebooks'] == "Yes" %}
   - jupyterlab
 {%- endif -%}
