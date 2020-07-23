@@ -2,7 +2,7 @@ steps:
  # add your steps here
 {%- if cookiecutter['jupyter notebooks'] == "Yes" %}
 - id: "jupyter"
-  uses: "./containers"
+  uses: "./containers/exploration/"
   args: ["jupyter", "--version"]
   options:
     ports: 

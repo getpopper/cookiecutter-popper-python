@@ -5,6 +5,5 @@
     "description" : "",
     "license": ["MIT", "BSD-3-Clause", "No license file"],
     "jupyter notebooks": ["Yes", "No"],
-    "python containers": ["one", "several"],
-    "data processing complexity": ["less", "more"]
+    "containers": ["one", "several"]
 }
