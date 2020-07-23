@@ -133,3 +133,8 @@ dmypy.json
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+
+# data files
+*.csv
+*.db
+*.npy

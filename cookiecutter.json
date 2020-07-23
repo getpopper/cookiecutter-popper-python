@@ -5,6 +5,6 @@
     "description" : "",
     "license": ["MIT", "BSD-3-Clause", "No license file"],
     "package_manager": ["conda", "pip"],
-    "notebooks": ["No", "Yes"],
-    "src_structure": ["Less", "More"]
+    "jupyter_notebooks": ["Yes", "No"],
+    "python_containers": ["one", "several"]
 }
