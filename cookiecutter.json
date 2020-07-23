@@ -1,10 +1,10 @@
 {
-    "project_name" : "",
-    "repo_name" :  "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
-    "author_name" : "",
+    "project name" : "",
+    "repo name" :  "{{ cookiecutter['project name'].lower().replace(' ', '-') }}",
+    "author name" : "",
     "description" : "",
     "license": ["MIT", "BSD-3-Clause", "No license file"],
-    "package_manager": ["conda", "pip"],
-    "jupyter_notebooks": ["Yes", "No"],
-    "python_containers": ["one", "several"]
+    "jupyter notebooks": ["Yes", "No"],
+    "python containers": ["one", "several"],
+    "data processing complexity": ["less", "more"]
 }

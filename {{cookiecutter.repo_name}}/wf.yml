@@ -1,12 +1,12 @@
 steps:
  # add your steps here
-{%- if cookiecutter.jupyter_notebooks == "Yes" -%}
+{%- if cookiecutter['jupyter_notebooks'] == "Yes" %}
 - id: "jupyter"
   args: ["jupyter", "--version"]
   options:
     ports: 
       8888/tcp: 8888
-{%- endif -%}
+{% endif -%}
 
 - id: "paper"
   uses: "docker://blang/latex:ctanbasic"
