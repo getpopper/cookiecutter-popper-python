@@ -16,6 +16,13 @@ Additionally, to run the generated project:
 - Popper
 - Docker
 
+## Generating a project template
+
+Run
+```sh
+cookiecutter https://github.com/getpopper/cookiecutter-popper-python
+```
+
 ## Generated project structure
 
 ```
