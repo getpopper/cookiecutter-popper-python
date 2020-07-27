@@ -11,5 +11,5 @@ steps:
 
 - id: "paper"
   uses: "docker://blang/latex:ctanbasic"
-  args: ["pdflatex", "paper.tex"]
+  args: ["latexmk", "-pdf", "paper.tex"]
   dir: "/workspace/paper"

@@ -3,8 +3,14 @@
 Cookiecutter template for research projects in Python on the 
 [Popper](https://github.com/getpopper/popper) workflow execution engine. 
 
-The goal is to provide a reasonable, flexible structure for developing 
+The goal is to provide a  structure for developing 
 reproducible projects in computational research (machine learning, statistics, bioinformatics, ...)
+following best practices in a container-native environment.
+
+Resource:
+- A guide for developing Python workflows for computational research with Popper is available in the
+ [Popper documentation](https://popper.readthedocs.io/en/latest/sections/guides.html).
+- An example project following this structure is available at [popper-examples](https://github.com/getpopper/popper-examples/tree/master/workflows/comp-research/python).
 
 ## Requirements
 
