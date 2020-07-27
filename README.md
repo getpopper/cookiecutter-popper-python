@@ -22,6 +22,18 @@ Additionally, to run the generated project:
 - Popper
 - Docker
 
+## Generating a project template
+
+Run
+```sh
+cookiecutter gh:getpopper/cookiecutter-popper-python
+```
+
+Cookiecutter options:
+- `containers`: `one` or `several`. Pick `one` if the workflow only needs one container for
+ a Python environment.
+
+
 ## Generated project structure
 
 ```
