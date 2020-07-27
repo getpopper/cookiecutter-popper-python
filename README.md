@@ -20,8 +20,13 @@ Additionally, to run the generated project:
 
 Run
 ```sh
-cookiecutter https://github.com/getpopper/cookiecutter-popper-python
+cookiecutter gh:getpopper/cookiecutter-popper-python
 ```
+
+Cookiecutter options:
+- `containers`: `one` or `several`. Pick `one` if the workflow only needs one container for
+ a Python environment.
+
 
 ## Generated project structure
 
