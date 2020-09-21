@@ -41,6 +41,7 @@ Cookiecutter options:
 ├── README.md                       <- The top-level README.
 ├── data                            <- Data used in workflow.
 ├── paper                           <- Generated paper as PDF, LaTeX.
+├── wf.yml                          <- Workflow starter
 ├── containers                      <- Definitions of containers used in workflow
 |   └── exploration                 <- Container used for exploratory work. 
 |       ├── exploration.dockerfile  <- Default dockerfile used in workflow.
